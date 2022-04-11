@@ -440,3 +440,146 @@ section {
   .banner-container .banner .content .btn {
     padding: 9px 25px;
   }
+
+  /*SHOP HTML STARTS HERE*/
+
+  .products .box-container {
+    display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:15px;
+  }
+  
+  .products .box-container .box {
+    position: relative;
+    background: #f3f3f3;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .products .box-container .box:hover .icons {
+    top: 0;
+  }
+  
+  .products .box-container .box .icons {
+    position: absolute;
+    top: -105%;
+    left: 0;
+    height: 300px;
+    width: 100%;
+    display: flex;
+            align-items: center;
+            justify-content: center;
+    background: rgba(243, 243, 243, 0.8);
+    gap: 10px;
+  }
+  
+  .products .box-container .box .icons a {
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    background: #fff;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    color: #666;
+  }
+  
+  .products .box-container .box .icons a:hover {
+    background: #f29b92;
+    color: #fff;
+  }
+  
+  .products .box-container .box .image {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .products .box-container .box .image img {
+    height: 100%;
+    width: 100%;
+       object-fit: cover;
+  }
+  
+  .products .box-container .box .content {
+    padding: 15px;
+  }
+  
+  .products .box-container .box .content h3 {
+    font-size: 17px;
+    color: #222;
+  }
+  
+  .products .box-container .box .content .price {
+    font-size: 14px;
+    color: #222;
+    padding: 10px 0;
+  }
+  
+  .products .box-container .box .content .stars i {
+    font-size: 17px;
+    color: #f29b92;
+  }
+
+
+  /*About HTML starts here*/ 
+
+  .about {
+    display: flex;
+            align-items: center;
+        flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .about .image {
+            flex: 1 1 400px;
+            margin-left: 130px;
+  }
+  
+  .about .image img {
+    height: 500px;
+  }
+  
+  .about .content {
+            flex: 1 1 400px;
+  }
+  
+  .about .content span {
+    color: #f29b92;
+    font-size: 26px;
+  }
+  
+  .about .content h3 {
+    color: #222;
+    font-size: 30px;
+    padding-top: 6px;
+  }
+  
+  .about .content p {
+    color: #666;
+    font-size:14px;
+    line-height: 2;
+    padding: 10px 0;
+  }
+  
+  .gallery .box-container {
+    display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 15px;
+  }
+  
+  .gallery .box-container .box {
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .gallery .box-container .box img {
+    height: 100%;
+    width: 100%;
+       object-fit: cover;
+  }
+  
+  .gallery .box-container .box:hover img {
+            transform: scale(1.2);
+  }
+  
