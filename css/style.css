@@ -582,4 +582,135 @@ section {
   .gallery .box-container .box:hover img {
             transform: scale(1.2);
   }
+  /*REVIEW HTML STARTS HERE*/
+
+  
+  .info-container {
+    display: grid;
+    -ms-grid-columns: (minmax(27rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 15px;
+  }
+  
+  .info-container .info {
+   
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0;
+  }
+  
+  .info-container .info img {
+    height: 70px;
+  }
+  
+  .info-container .info .content h3 {
+    font-size: 20px;
+    color: #df7a6f;
+    padding-bottom: 50px;
+  }
+  
+  .info-container .info .content span {
+    font-size: 15px;
+    color: #666;
+  }
+  
+  .review {
+    display: grid;
+    -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 15px;
+  }
+  
+  .review .box {
+    padding: 20px;
+    border: 1px  solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .review .box .user {
+    display: flex;
+            align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .review .box .user img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+  }
+  
+  .review .box .user h3 {
+    font-size: 22px;
+    color: #df7a6f;
+  }
+  
+  .review .box .user span {
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .review .box p {
+    font-size: 16px;
+    color: #666;
+    line-height: 2;
+  }
+
+  /*FOOTER STARTS HERE*/
+
+.footer {
+    background: rgb(255, 243, 243);
+  }
+  
+  .footer .box-container {
+    display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+  }
+  
+  .footer .box-container .box h3 {
+    font-size: 22px;
+    color: #222;
+    padding: 10px 0;
+  }
+  
+  .footer .box-container .box p {
+    font-size: 15px;
+    color: #666;
+    padding-bottom: 5px;
+  }
+  
+  .footer .box-container .box a {
+    font-size: 14px;
+    color: #666;
+    padding: 10px 0;
+    display: block;
+  }
+  
+  .footer .box-container .box a:hover {
+    color: #f29b92;
+  }
+  
+  .footer .box-container .box a:hover i {
+    padding-right: 20px;
+  }
+  
+  .footer .box-container .box a i {
+    padding-right: 5px;
+    color: #f29b92;
+  }
+  
+  .footer .box-container .box form input[type="email"] {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 17px;
+    color: #222;
+    margin: 10px 0;
+    text-transform: none;
+  }
+  
+  .footer .box-container .box .payment {
+    width: 100%;
+    margin-top: 20px;
+  }
   
