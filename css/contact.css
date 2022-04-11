@@ -1,0 +1,72 @@
+.contacti{
+    width: 400px;
+    height: 560px;
+    background-color: rgba(219, 198, 198, 0.8);
+    color: #fff;
+    box-sizing: border-box;
+    padding: 50px 30px;
+  }
+  .contacti label{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 16px;
+  }
+  .contacti input{
+  width: 100%;
+    margin-bottom: 40px;
+  }
+  .contacti input[type="text"], input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.contacti button{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #e69898;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+.contacti textarea{
+    padding-top: 6px;
+    width: 350px;
+}
+.adresses{
+   margin-left: 200px;
+}
+.adresses h2{
+    font-size: 25px;
+    color:#fff;
+    text-shadow: 1px 1px 2px rgb(233, 85, 109);
+    margin-bottom: 7px;
+}
+.adresses p{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .adresses {
+        margin: 10% auto;
+    }
+    
+    .body1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+    }
+}
