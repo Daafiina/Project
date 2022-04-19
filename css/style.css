@@ -812,4 +812,31 @@ section {
       border-bottom: 2px solid rgba(0, 0, 0, 0.1);
               clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
+    .header .navbar.active {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+              clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    .header .navbar a {
+      margin: 15px;
+      padding: 15px;
+      background: #f3f3f3;
+      font-size: 20px;
+      display: block;
+      border-radius: 6px;
+    }
+  }
+   
+  @media (max-width: 450px) {
+    html {
+      font-size: 50%;
+    }
+    .home .slides-container .slide .content h3 {
+      font-size: 50px;
+    }
+    .contact .row form .inputBox input {
+      width: 100%;
+    }
+    .about .image {
+      margin: auto;
+    }
   }
