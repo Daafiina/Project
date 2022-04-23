@@ -15,7 +15,7 @@
         // Get all the submitted data from the form
         $image = $_FILES['image']['name'];
         $text = $_POST['text'];
-        $product_price = $_POST['product_price'];
+        $product_price = $_POST['product-price'];
         $posted_by = $_SESSION['userUid'];
 
         if(empty($image)) {
