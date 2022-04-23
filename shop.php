@@ -15,7 +15,7 @@
 </head>
 <body>
     
-<!-- header section starts  -->
+<!-- header section starts -->
 
 <?php require 'includes/header.php' ?>
 
